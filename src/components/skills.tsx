@@ -23,7 +23,7 @@ const imageVariants: Variants = {
 const Skills = () => {
   return (
     <>
-      <div className="md:flex justify-around items-start mt-12 ">
+      <div className="flex flex-col md:flex-row items-center md:justify-around md:items-start mt-12 ">
         <motion.div initial="offscreen" animate="onscreen" className="mt-2 md:mt-0">
           <motion.img
             alt="html"
@@ -70,7 +70,7 @@ const Skills = () => {
           />
         </motion.div>
       </div>
-      <div className="md:flex justify-around items-start md:mt-24 ">
+      <div className="flex flex-col md:flex-row items-center md:justify-around md:items-start mt-12 ">
         <motion.div initial="offscreen" animate="onscreen" className="mt-2 md:mt-0">
           <motion.img
             alt="redux"

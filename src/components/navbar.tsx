@@ -82,11 +82,11 @@ const Navbar = ({ handleClick }: IProps) => {
               <div
                 className="w-12 py-2 font-semibold cursor-pointer hover:text-yellow-400"
                 onClick={() => {
-                  handleClick('experience');
+                  handleClick('skills');
                   setIsOpen(false);
                 }}
               >
-                Experience
+                Skills
               </div>
               <div
                 className="w-12 py-2 font-semibold cursor-pointer hover:text-yellow-400"
