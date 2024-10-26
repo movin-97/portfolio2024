@@ -3,33 +3,6 @@ import Contact from '../components/contact';
 import Skills from '../components/skills';
 import Navbar from '../components/navbar';
 import Projects from '../components/projects';
-import yectralogo from '../assets/yectra.png';
-import { motion, Variants } from 'framer-motion';
-
-const cardVariantsText: Variants = {
-  offscreen: {
-    y: 300,
-  },
-  onscreen: {
-    y: 50,
-    rotate: 0,
-    transition: {
-      type: 'spring',
-      bounce: 0,
-      duration: 1,
-    },
-  },
-  hover: {
-    scale: 1.05,
-    rotate: 0,
-    transition: {
-      type: 'spring',
-      stiffness: 300,
-      damping: 15,
-      duration: 1,
-    },
-  },
-};
 
 export function HomePage() {
   const handleClick = (sectionId: string) => {
