@@ -176,12 +176,12 @@ const Projects = () => {
             className="md:flex flex-wrap justify-between mt-14 text-center max-md:mt-10 cursor-pointer "
           >
             <motion.div variants={cardVariantsText} className=" text-2xl font-bold text-white ">
-              <div className="md:flex justify-between">
-                <div className="md:flex ">
+              <div className="lg:flex justify-between">
+                <div className="lg:flex ">
                   <img
                     alt="company name"
                     src={yectralogo}
-                    className="object-contain shrink-0 self-start aspect-[1.06] w-[34px] rounded-lg mx-auto"
+                    className="object-contain shrink-0 self-start aspect-[1.06] w-[74px] lg:w-[34px] rounded-lg mx-auto"
                   />
                   <div className="flex-auto">React.js Developer at Yectra Technologies</div>
                 </div>
@@ -204,14 +204,14 @@ const Projects = () => {
             className="md:flex flex-wrap justify-between mt-14 text-center max-md:mt-10 cursor-pointer"
           >
             <motion.div variants={cardVariantsText} className=" text-2xl font-bold text-white">
-              <div className="md:flex justify-between">
-                <div className="md:flex ">
+              <div className="lg:flex justify-between">
+                <div className="lg:flex ">
                   <img
                     alt="company name"
                     src="https://media.istockphoto.com/id/1337144146/vector/default-avatar-profile-icon-vector.jpg?s=612x612&w=0&k=20&c=BIbFwuv7FxTWvh5S3vB6bkT0Qv8Vn8N5Ffseq84ClGI="
-                    className="object-contain shrink-0 self-start aspect-[1.06] w-[34px] rounded-lg mx-auto"
+                    className="object-contain shrink-0 self-start aspect-[1.06] w-[74px] lg:w-[34px] rounded-lg mx-auto"
                   />
-                  <div className="flex-auto">Desktop Support Engineer at Synergy</div>
+                  <div className="flex-auto">Support Engineer at Synergy</div>
                 </div>
                 <div className="my-auto text-sm text-gray-400">Full-time</div>
               </div>

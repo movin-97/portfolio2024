@@ -38,6 +38,11 @@ const Contact = () => {
               <i className="fa-brands fa-whatsapp text-3xl text-white"></i>
             </a>
           </div>
+          <div>
+            <a href="https://github.com/movin-97" target="_blank">
+              <i className="fa-brands fa-github text-3xl text-white"></i>
+            </a>
+          </div>
         </div>
       </div>
     </>
