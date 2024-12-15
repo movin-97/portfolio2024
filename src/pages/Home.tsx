@@ -3,6 +3,7 @@ import Contact from '../components/contact';
 import Skills from '../components/skills';
 import Navbar from '../components/navbar';
 import Projects from '../components/projects';
+import { motion } from 'framer-motion';
 
 export function HomePage() {
   const handleClick = (sectionId: string) => {
@@ -17,24 +18,45 @@ export function HomePage() {
           <Banner />
         </div>
 
-        <div id="skills" className="p-3 lg:p-0">
+        <motion.div
+          initial={{ opacity: 0, y: 100 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 1, ease: 'easeOut' }}
+          id="skills"
+          className="p-3 lg:p-0"
+        >
           <div className="text-center mt-24 text-2xl lg:text-4xl font-extrabold text-white leading-none uppercase  max-md:mt-10">
             SKILLS WITH
           </div>
           <Skills />
-        </div>
+        </motion.div>
 
-        <div id="projects" className="p-3 lg:p-0">
+        <motion.div
+          initial={{ opacity: 0, y: 100 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 1, ease: 'easeOut' }}
+          id="projects"
+          className="p-3 lg:p-0"
+        >
           <div className="text-center mt-14 lg:mt-24 text-2xl lg:text-4xl font-extrabold text-white leading-none uppercase  max-md:mt-10">
             Projects
           </div>
           <Projects />
-        </div>
-        <div id="contact" className="p-3 lg:p-0 ">
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, y: 100 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 1, ease: 'easeOut' }}
+          id="contact"
+          className="p-3 lg:p-0 "
+        >
           <div className="flex flex-col justify-center items-center self-stretch px-20 py-14 mt-28 w-full bg-zinc-900 max-md:px-5 max-md:pb-24 max-md:mt-10 max-md:max-w-full">
             <Contact />
           </div>
-        </div>
+        </motion.div>
       </div>
     </div>
   );

@@ -11,7 +11,7 @@ const Navbar = ({ handleClick }: IProps) => {
   return (
     <>
       <div className="drop-shadow-2xl text-base font-semibold  text-white px-4 shadow-2xl">
-        <div className="flex  gap-5 justify-between items-center">
+        <div className="flex gap-5 justify-between items-center">
           <div className="text-xl font-semibold text-stone-300 tracking-[2.4px] p-3">
             <Logo />
           </div>
